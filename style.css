@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #12172b;
+    font-family: "Poppins", sans-serif;
+}
+
+#aboutus{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #12172b;
+}
+
+.about-section{
+    
+    background-size: 55%;
+    background-color:#12172b;
+    overflow:hidden;
+    padding:100px 0;
+
+}
+
+.innerContainer{
+    width:55%;
+    float:right;
+    background-color:#12172b;
+    padding:150px;
+}
+
+.innerContainer h1{
+    margin-bottom: 30px;
+    font-size:30px;
+    font-weight:500;
+}
+
+.text{
+    font-size:13px;
+    color:#ccc;
+    line-height: justify;
+    margin-bottom:40px;
+
+}
+
+
+
+
+.skills{
+    display:flex;
+    justify-content: space-between;
+    font-weight:700;
+    font-size:13px;
+}
+
+.container{
+   margin:20px 40px;
+   color: white; 
+}
+
+.heading{
+    font-size: 60px;
+    color: white;
+}
+
+.heading span{
+    font-style:italic;
+    font-size:30px;
+}
+
+.profiles{
+    display:flex;
+    justify-content:space-around;
+    margin: 20px 80px;
+}
+
+.profile{
+    flex-basis:260px;
+}
+
+.profile .profile-img{
+    height:260px;
+    width:260px;
+    border-radius: 50%;
+    filter:grayscale(100%);
+    cursor:pointer;
+    transition: 400ms;
+
+}
+
+.profile:hover .profile-img{
+    filter: grayscale(0);
+}
+
+.user-name{
+
+    margin-top: 30px;
+    font-size:35px ;
+}
+
+.profile h5{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+
+}
+
+.profile p{
+    font-size:16px;
+    margin-top:20px ;
+    text-align: justify;
+
+}
+
+
+
+
+
+.containerLogo{
+    width: 100%;
+    height: 100vh;
+    background-image:url(EatHarmony\ Logo\ Transparent.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.header{
+    height:15%;
+    display:flex;
+    allign-items:center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.logo{
+    width:200px;
+    cursor:pointer;
+    background: transparent;
+
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.NavigationBar{
+    text-allign:center;
+    flex:1;
+
+}
+
+.NavigationBar a{
+    padding:6px 20px;
+    text-decoration: none;
+    color:burlywood;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.button{
+    cursor:pointer;
+    color:white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding:10px 30px;
+    border:2px solid white;
+    background:whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin:40px 8px;
+}
+
+.button:hover{
+    color:white;
+    background-color: white;
+}
+
+.button a:visited{
+    background-color: white;
+}
+
+.button a:hover{
+    color: #000;
+
+}
+
+.button a:link{
+text-decoration: none;
+
+}
+
+.content{
+    color: white;
+    text-align:center;
+    margin-top:12%;
+
+
+}
+.content p5{
+    font-size: larger;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    animation-name: example;
+    animation-duration: 4s
+  
+}
+
+.content h4{
+    font-size:40px;
+    text-align: center;
+}
+
+.content h1{
+    font-size:80px;
+}
+
+.content h2{
+    text-align: left;
+    font-weight: bold;
+}
+
+.content h3{
+    text-align: right;
+    font-weight: bold;
+}
+
+.matt{
+    height: 300px;
+    width: 300x;
+    float: left;
+    
+}
+
+.cassidy{
+    height: 300px;
+    width: 300px;
+    float: right;
+}
+
+.eat1{
+    height: 400px;
+    width: 400px;
+    float: right; 
+}
+
+.eat2{
+    height: 400px;
+    width: 400px;
+    float: left;
+}
+
+.eatAB{
+    height: 400px;
+    width: 400px;
+    float: inline-start;
+}
+
+.eat22{
+    height: 400px;
+    width: 400px;
+    float: right; 
+}
+
+.map{
+    height: 400px;
+    width: 400px;
+    float: none;    
+}
+
+@media only screen and (max-width:1150px){
+    .profiles{
+        flex-direction: column;
+    }
+
+    .profile{
+        displayL:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile p{
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 20px;
+    }
+}
+
